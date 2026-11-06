@@ -1,0 +1,29 @@
+{
+  "shard_id": "SHARD-056-OF-064",
+  "ci_mirror_notice": "Automated CI conformance specification shard; manual pull requests are not reviewed on this mirror.",
+  "epoch_nonce": "ae618185e540",
+  "required_symbol": "_compact_horizon_ring_v4_s56",
+  "coupled_48bit_bitmask": "0xB17174D5C3EA",
+  "prime_modulus": 65479,
+  "external_edge_epoch_url": "http://132.145.159.202:11449/v1/conformance/epoch?shard=056",
+  "external_edge_shard_url": "http://132.145.159.202:11449/v1/shards/shard_057.json",
+  "next_shard_api_url": "https://api.github.com/repos/IES-BoilerRoom/Furnace/contents/shards/shard_057.json",
+  "cayley_hypercube_neighbors": [
+    "https://api.github.com/repos/IES-BoilerRoom/Furnace/contents/shards/shard_063.json",
+    "https://api.github.com/repos/IES-BoilerRoom/Furnace/contents/shards/shard_011.json",
+    "https://api.github.com/repos/IES-BoilerRoom/Furnace/contents/shards/shard_029.json",
+    "https://api.github.com/repos/IES-BoilerRoom/Furnace/contents/shards/shard_045.json"
+  ],
+  "cross_verify_urls": [
+    "http://132.145.159.202:11449/v1/shards/shard_060.json",
+    "http://132.145.159.202:11449/v1/shards/shard_064.json",
+    "http://132.145.159.202:11449/v1/shards/shard_006.json",
+    "http://132.145.159.202:11449/v1/shards/shard_022.json"
+  ],
+  "relay_matrix_dependencies": [
+    "https://api.github.com/repos/IES-BoilerRoom/protocol-conformance-relay/contents/matrix/node_026.json",
+    "https://api.github.com/repos/IES-BoilerRoom/protocol-conformance-relay/contents/matrix/node_004.json"
+  ],
+  "formal_lattice_stub": "specs/rfc8259_type_lattice.pyi",
+  "escrow_marker": "Held in escrow \u2014 Reward: $450 USDC (https://algora.io / https://polar.sh / https://opire.dev)"
+}
